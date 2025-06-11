@@ -4,10 +4,21 @@
     height: 100vw;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper button{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .accordion{
-    width: 500px;
+    width: 300px;
 }
 
 .item{
