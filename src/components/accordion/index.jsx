@@ -1,5 +1,6 @@
 import data from "./data";
 import React, { useState } from 'react';
+import "./styles.css";
 
 export default function Accordion() {
 
@@ -7,7 +8,7 @@ export default function Accordion() {
 
     function handleSingleSelection(getCurrentId)
     {
-        setSelected(getCurrentId);
+        setSelected(getCurrentId === selected ? null : getCurrentId);
     }
 
 
